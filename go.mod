@@ -3,8 +3,10 @@ module github.com/k3s-io/helm-set-status
 go 1.16
 
 // pin this version to address a vulnerability
-// updating to helm v3.6.3 did not cause this transitive dependency to update to a fixed version
-replace github.com/opencontainers/runc => github.com/opencontainers/runc v1.0.0
+replace (
+	github.com/opencontainers/runc => github.com/opencontainers/runc v1.0.0
+	golang.org/x/net => golang.org/x/net v0.0.0-20220906165146-f3363e06e74c
+)
 
 require (
 	github.com/pkg/errors v0.9.1
