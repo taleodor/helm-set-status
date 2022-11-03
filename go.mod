@@ -6,6 +6,7 @@ go 1.16
 replace (
 	github.com/opencontainers/runc => github.com/opencontainers/runc v1.0.0
 	golang.org/x/net => golang.org/x/net v0.0.0-20220906165146-f3363e06e74c
+	golang.org/x/text => golang.org/x/text v0.3.8
 )
 
 require (
