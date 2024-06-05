@@ -7,7 +7,7 @@ toolchain go1.22.4
 // pin this version to address a vulnerability
 // updating to helm v3.6.3 did not cause this transitive dependency to update to a fixed version
 replace (
-	github.com/docker/docker => github.com/docker/docker v20.10.27+incompatible
+	github.com/docker/docker => github.com/docker/docker v20.10.24+incompatible
 	github.com/opencontainers/runc => github.com/opencontainers/runc v1.0.0
 	golang.org/x/net => golang.org/x/net v0.17.0
 	google.golang.org/grpc => google.golang.org/grpc v1.56.3
